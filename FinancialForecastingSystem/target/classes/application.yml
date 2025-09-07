@@ -6,8 +6,8 @@ spring:
     name: financial-forecasting-system
   datasource:
     url: jdbc:mysql://localhost:3306/financial_forecasting?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-    username: fin
-    password: fin123
+    username: root
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:

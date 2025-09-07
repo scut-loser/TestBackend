@@ -6,8 +6,8 @@ spring:
     name: financial-forecasting-system
   datasource:
     url: jdbc:mysql://localhost:3306/financial_forecasting?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-    username: fin
-    password: fin123
+    username: root
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
@@ -42,9 +42,3 @@ logging:
     name: logs/financial-forecasting.log
     max-size: 100MB
     max-history: 30
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"   # 开放所有端点
